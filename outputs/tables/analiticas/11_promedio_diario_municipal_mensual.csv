@@ -1,0 +1,73 @@
+﻿Año,Clave_Ent,Entidad,Cve. Municipio,Municipio,Mes_num,Mes,dias_mes,homicidio_doloso,homicidio_culposo,feminicidio,total_homicidios_y_feminicidio,promedio_diario_total_homicidios
+2026,27,Tabasco,27001,Balancán,1,Enero,31,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27001,Balancán,2,Febrero,28,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27001,Balancán,3,Marzo,31,0.0,1.0,0.0,1.0,0.03225806451612903
+2026,27,Tabasco,27001,Balancán,4,Abril,30,1.0,2.0,0.0,3.0,0.1
+2026,27,Tabasco,27003,Centla,1,Enero,31,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27003,Centla,2,Febrero,28,0.0,2.0,0.0,2.0,0.07142857142857142
+2026,27,Tabasco,27003,Centla,3,Marzo,31,1.0,6.0,0.0,7.0,0.22580645161290322
+2026,27,Tabasco,27003,Centla,4,Abril,30,0.0,4.0,0.0,4.0,0.13333333333333333
+2026,27,Tabasco,27004,Centro,1,Enero,31,14.0,9.0,0.0,23.0,0.7419354838709677
+2026,27,Tabasco,27004,Centro,2,Febrero,28,18.0,10.0,1.0,29.0,1.0357142857142858
+2026,27,Tabasco,27004,Centro,3,Marzo,31,27.0,13.0,1.0,41.0,1.3225806451612903
+2026,27,Tabasco,27004,Centro,4,Abril,30,22.0,12.0,1.0,35.0,1.1666666666666667
+2026,27,Tabasco,27005,Comalcalco,1,Enero,31,7.0,7.0,0.0,14.0,0.45161290322580644
+2026,27,Tabasco,27005,Comalcalco,2,Febrero,28,1.0,2.0,0.0,3.0,0.10714285714285714
+2026,27,Tabasco,27005,Comalcalco,3,Marzo,31,1.0,1.0,0.0,2.0,0.06451612903225806
+2026,27,Tabasco,27005,Comalcalco,4,Abril,30,2.0,1.0,0.0,3.0,0.1
+2026,27,Tabasco,27006,Cunduacán,1,Enero,31,7.0,3.0,0.0,10.0,0.3225806451612903
+2026,27,Tabasco,27006,Cunduacán,2,Febrero,28,5.0,5.0,0.0,10.0,0.35714285714285715
+2026,27,Tabasco,27006,Cunduacán,3,Marzo,31,2.0,4.0,0.0,6.0,0.1935483870967742
+2026,27,Tabasco,27006,Cunduacán,4,Abril,30,4.0,4.0,0.0,8.0,0.26666666666666666
+2026,27,Tabasco,27002,Cárdenas,1,Enero,31,1.0,4.0,0.0,5.0,0.16129032258064516
+2026,27,Tabasco,27002,Cárdenas,2,Febrero,28,4.0,2.0,0.0,6.0,0.21428571428571427
+2026,27,Tabasco,27002,Cárdenas,3,Marzo,31,6.0,8.0,0.0,14.0,0.45161290322580644
+2026,27,Tabasco,27002,Cárdenas,4,Abril,30,2.0,4.0,0.0,6.0,0.2
+2026,27,Tabasco,27007,Emiliano Zapata,1,Enero,31,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27007,Emiliano Zapata,2,Febrero,28,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27007,Emiliano Zapata,3,Marzo,31,0.0,1.0,0.0,1.0,0.03225806451612903
+2026,27,Tabasco,27007,Emiliano Zapata,4,Abril,30,1.0,3.0,0.0,4.0,0.13333333333333333
+2026,27,Tabasco,27008,Huimanguillo,1,Enero,31,9.0,1.0,0.0,10.0,0.3225806451612903
+2026,27,Tabasco,27008,Huimanguillo,2,Febrero,28,3.0,2.0,0.0,5.0,0.17857142857142858
+2026,27,Tabasco,27008,Huimanguillo,3,Marzo,31,7.0,6.0,0.0,13.0,0.41935483870967744
+2026,27,Tabasco,27008,Huimanguillo,4,Abril,30,6.0,5.0,0.0,11.0,0.36666666666666664
+2026,27,Tabasco,27009,Jalapa,1,Enero,31,1.0,1.0,0.0,2.0,0.06451612903225806
+2026,27,Tabasco,27009,Jalapa,2,Febrero,28,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27009,Jalapa,3,Marzo,31,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27009,Jalapa,4,Abril,30,4.0,4.0,0.0,8.0,0.26666666666666666
+2026,27,Tabasco,27010,Jalpa de Méndez,1,Enero,31,2.0,1.0,0.0,3.0,0.0967741935483871
+2026,27,Tabasco,27010,Jalpa de Méndez,2,Febrero,28,7.0,0.0,0.0,7.0,0.25
+2026,27,Tabasco,27010,Jalpa de Méndez,3,Marzo,31,2.0,0.0,0.0,2.0,0.06451612903225806
+2026,27,Tabasco,27010,Jalpa de Méndez,4,Abril,30,5.0,3.0,0.0,8.0,0.26666666666666666
+2026,27,Tabasco,27011,Jonuta,1,Enero,31,0.0,1.0,0.0,1.0,0.03225806451612903
+2026,27,Tabasco,27011,Jonuta,2,Febrero,28,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27011,Jonuta,3,Marzo,31,0.0,1.0,0.0,1.0,0.03225806451612903
+2026,27,Tabasco,27011,Jonuta,4,Abril,30,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27012,Macuspana,1,Enero,31,2.0,0.0,0.0,2.0,0.06451612903225806
+2026,27,Tabasco,27012,Macuspana,2,Febrero,28,0.0,5.0,0.0,5.0,0.17857142857142858
+2026,27,Tabasco,27012,Macuspana,3,Marzo,31,4.0,4.0,0.0,8.0,0.25806451612903225
+2026,27,Tabasco,27012,Macuspana,4,Abril,30,0.0,2.0,0.0,2.0,0.06666666666666667
+2026,27,Tabasco,27013,Nacajuca,1,Enero,31,2.0,4.0,0.0,6.0,0.1935483870967742
+2026,27,Tabasco,27013,Nacajuca,2,Febrero,28,8.0,4.0,0.0,12.0,0.42857142857142855
+2026,27,Tabasco,27013,Nacajuca,3,Marzo,31,2.0,0.0,0.0,2.0,0.06451612903225806
+2026,27,Tabasco,27013,Nacajuca,4,Abril,30,2.0,0.0,0.0,2.0,0.06666666666666667
+2026,27,Tabasco,27999,No especificado,1,Enero,31,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27999,No especificado,2,Febrero,28,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27999,No especificado,3,Marzo,31,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27999,No especificado,4,Abril,30,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27014,Paraíso,1,Enero,31,0.0,1.0,0.0,1.0,0.03225806451612903
+2026,27,Tabasco,27014,Paraíso,2,Febrero,28,2.0,0.0,0.0,2.0,0.07142857142857142
+2026,27,Tabasco,27014,Paraíso,3,Marzo,31,0.0,1.0,0.0,1.0,0.03225806451612903
+2026,27,Tabasco,27014,Paraíso,4,Abril,30,2.0,1.0,0.0,3.0,0.1
+2026,27,Tabasco,27015,Tacotalpa,1,Enero,31,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27015,Tacotalpa,2,Febrero,28,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27015,Tacotalpa,3,Marzo,31,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27015,Tacotalpa,4,Abril,30,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27016,Teapa,1,Enero,31,2.0,1.0,0.0,3.0,0.0967741935483871
+2026,27,Tabasco,27016,Teapa,2,Febrero,28,2.0,1.0,0.0,3.0,0.10714285714285714
+2026,27,Tabasco,27016,Teapa,3,Marzo,31,1.0,1.0,0.0,2.0,0.06451612903225806
+2026,27,Tabasco,27016,Teapa,4,Abril,30,1.0,0.0,1.0,2.0,0.06666666666666667
+2026,27,Tabasco,27017,Tenosique,1,Enero,31,0.0,0.0,0.0,0.0,0.0
+2026,27,Tabasco,27017,Tenosique,2,Febrero,28,1.0,1.0,0.0,2.0,0.07142857142857142
+2026,27,Tabasco,27017,Tenosique,3,Marzo,31,1.0,0.0,0.0,1.0,0.03225806451612903
+2026,27,Tabasco,27017,Tenosique,4,Abril,30,2.0,0.0,0.0,2.0,0.06666666666666667

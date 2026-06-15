@@ -1,0 +1,5 @@
+﻿Año,Clave_Ent,Entidad,Mes_num,Mes,homicidio_doloso,homicidio_culposo,feminicidio,total_intencional,total_homicidios_y_feminicidio,dias_mes,promedio_diario_total_homicidios
+2026,27,Tabasco,1,Enero,47.0,33.0,0.0,47.0,80.0,31,2.5806451612903225
+2026,27,Tabasco,2,Febrero,51.0,34.0,1.0,52.0,86.0,28,3.0714285714285716
+2026,27,Tabasco,3,Marzo,54.0,47.0,1.0,55.0,102.0,31,3.2903225806451615
+2026,27,Tabasco,4,Abril,54.0,45.0,2.0,56.0,101.0,30,3.3666666666666667

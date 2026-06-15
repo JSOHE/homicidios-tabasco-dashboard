@@ -1,0 +1,753 @@
+﻿Año,Clave_Ent,Entidad,Cve. Municipio,Municipio,Bien jurídico afectado,Tipo de delito,Subtipo de delito,Modalidad,Sexo,Rango de edad,Mes_num,Mes,Victimas,categoria_analisis,tipo_evento
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,13 a 17 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,1,Enero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,1,Enero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,0 a 12 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,0 a 12 años,1,Enero,0,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,18 a 29 años,1,Enero,0,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,30 a 60 años,1,Enero,0,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,13 a 17 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,1,Enero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,30 a 60 años,1,Enero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,13 a 17 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,1,Enero,3,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,1,Enero,6,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,1,Enero,3,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,0 a 12 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,13 a 17 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,13 a 17 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,18 a 29 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,13 a 17 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,1,Enero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,1,Enero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,1,Enero,2,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,1,Enero,2,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,1,Enero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,13 a 17 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,18 a 29 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,30 a 60 años,1,Enero,4,homicidio_doloso,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Mujer,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,13 a 17 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,13 a 17 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,1,Enero,4,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,1,Enero,2,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,30 a 60 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,0 a 12 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27011,Jonuta,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27011,Jonuta,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,18 a 29 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,Mujer,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,No especificado,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,18 a 29 años,1,Enero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,30 a 60 años,1,Enero,0,feminicidio,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,1,Enero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,1,Enero,2,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,18 a 29 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma blanca,No identificado,No especificado,1,Enero,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,No identificado,No especificado,1,Enero,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con otro elemento,No identificado,No especificado,1,Enero,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,No identificado,No especificado,1,Enero,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,No identificado,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,No identificado,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,No identificado,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,No identificado,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,No identificado,No especificado,1,Enero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,No identificado,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,No identificado,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,No identificado,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,No identificado,No especificado,1,Enero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,13 a 17 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,Más de 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,2,Febrero,2,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,0 a 12 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,0 a 12 años,2,Febrero,1,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,18 a 29 años,2,Febrero,0,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,30 a 60 años,2,Febrero,0,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,13 a 17 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,2,Febrero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,2,Febrero,4,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,2,Febrero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,30 a 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,13 a 17 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,2,Febrero,2,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,2,Febrero,7,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,2,Febrero,2,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,2,Febrero,3,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,0 a 12 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,13 a 17 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,13 a 17 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,13 a 17 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,Hombre,30 a 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,2,Febrero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,13 a 17 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,2,Febrero,3,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Mujer,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,13 a 17 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,13 a 17 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,2,Febrero,2,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,0 a 12 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,2,Febrero,2,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,2,Febrero,3,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27011,Jonuta,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27011,Jonuta,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,2,Febrero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,2,Febrero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,Hombre,18 a 29 años,2,Febrero,2,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,Hombre,30 a 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,Mujer,30 a 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,2,Febrero,6,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,2,Febrero,2,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,30 a 60 años,2,Febrero,0,feminicidio,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,18 a 29 años,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,2,Febrero,1,homicidio_culposo,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,2,Febrero,1,homicidio_doloso,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma blanca,No identificado,No especificado,2,Febrero,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,No identificado,No especificado,2,Febrero,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con otro elemento,No identificado,No especificado,2,Febrero,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,No identificado,No especificado,2,Febrero,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,No identificado,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,No identificado,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,No identificado,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,No identificado,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,No identificado,No especificado,2,Febrero,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,No identificado,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,No identificado,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,No identificado,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,No identificado,No especificado,2,Febrero,0,homicidio_doloso,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,13 a 17 años,3,Marzo,2,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,3,Marzo,2,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,3,Marzo,2,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,Más de 60 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,3,Marzo,3,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,0 a 12 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,3,Marzo,3,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,0 a 12 años,3,Marzo,0,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,18 a 29 años,3,Marzo,1,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,30 a 60 años,3,Marzo,0,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,13 a 17 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,3,Marzo,2,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,3,Marzo,3,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,3,Marzo,2,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,3,Marzo,4,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,3,Marzo,2,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,13 a 17 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,3,Marzo,11,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,3,Marzo,9,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,3,Marzo,3,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,0 a 12 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,13 a 17 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,13 a 17 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,13 a 17 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,3,Marzo,3,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,13 a 17 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Mujer,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,3,Marzo,2,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,13 a 17 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,13 a 17 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,3,Marzo,2,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,3,Marzo,5,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,0 a 12 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,No especificado,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27011,Jonuta,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27011,Jonuta,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,3,Marzo,2,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,3,Marzo,2,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,3,Marzo,2,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,Mujer,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,30 a 60 años,3,Marzo,0,feminicidio,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,3,Marzo,1,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,18 a 29 años,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,3,Marzo,1,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma blanca,No identificado,No especificado,3,Marzo,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,No identificado,No especificado,3,Marzo,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con otro elemento,No identificado,No especificado,3,Marzo,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,No identificado,No especificado,3,Marzo,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,No identificado,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,No identificado,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,No identificado,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,No identificado,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,No identificado,No especificado,3,Marzo,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,No identificado,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,No identificado,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,No identificado,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,No identificado,No especificado,3,Marzo,0,homicidio_doloso,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27001,Balancán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,13 a 17 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,Más de 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27002,Cárdenas,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,0 a 12 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,4,Abril,2,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,4,Abril,2,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27003,Centla,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,0 a 12 años,4,Abril,0,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,18 a 29 años,4,Abril,0,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,30 a 60 años,4,Abril,1,feminicidio,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,13 a 17 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,4,Abril,3,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,4,Abril,2,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,13 a 17 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,4,Abril,3,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,4,Abril,3,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,4,Abril,6,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,4,Abril,3,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,0 a 12 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,13 a 17 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,4,Abril,3,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,13 a 17 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,18 a 29 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27004,Centro,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,13 a 17 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27005,Comalcalco,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,4,Abril,2,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,Más de 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,13 a 17 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,4,Abril,3,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27006,Cunduacán,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,4,Abril,2,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27007,Emiliano Zapata,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Mujer,30 a 60 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,4,Abril,2,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,No especificado,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,13 a 17 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,13 a 17 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,4,Abril,2,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27008,Huimanguillo,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Mujer,30 a 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,4,Abril,2,homicidio_doloso,consumado
+2026,27,Tabasco,27009,Jalapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,0 a 12 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,13 a 17 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Mujer,30 a 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,4,Abril,2,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,4,Abril,2,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,No especificado,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27010,Jalpa de Méndez,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27011,Jonuta,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27011,Jonuta,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,18 a 29 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,Hombre,30 a 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,13 a 17 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27012,Macuspana,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,Mujer,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,Más de 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Mujer,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Mujer,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27013,Nacajuca,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,30 a 60 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,30 a 60 años,4,Abril,1,homicidio_culposo,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27014,Paraíso,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,Hombre,No especificado,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,Mujer,30 a 60 años,4,Abril,1,feminicidio,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,Hombre,Más de 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,18 a 29 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Mujer,30 a 60 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,Hombre,18 a 29 años,4,Abril,1,homicidio_doloso,consumado
+2026,27,Tabasco,27016,Teapa,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,Hombre,18 a 29 años,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,Hombre,30 a 60 años,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,30 a 60 años,4,Abril,2,homicidio_doloso,consumado
+2026,27,Tabasco,27017,Tenosique,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,Hombre,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma blanca,No identificado,No especificado,4,Abril,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con arma de fuego,No identificado,No especificado,4,Abril,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,Con otro elemento,No identificado,No especificado,4,Abril,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Feminicidio,Feminicidio,No especificado,No identificado,No especificado,4,Abril,0,feminicidio,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma blanca,No identificado,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con arma de fuego,No identificado,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,Con otro elemento,No identificado,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,En accidente de tránsito,No identificado,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio culposo,No especificado,No identificado,No especificado,4,Abril,0,homicidio_culposo,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma blanca,No identificado,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con arma de fuego,No identificado,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,Con otro elemento,No identificado,No especificado,4,Abril,0,homicidio_doloso,consumado
+2026,27,Tabasco,27999,No especificado,La vida y la Integridad corporal,Homicidio,Homicidio doloso,No especificado,No identificado,No especificado,4,Abril,0,homicidio_doloso,consumado
