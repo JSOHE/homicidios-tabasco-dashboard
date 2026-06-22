@@ -337,7 +337,7 @@ agregar_etiquetas_barras_horizontales(ax)
 
 ax.set_title(
     "Tabasco: municipios con más víctimas de violencia letal intencional\n"
-    "Homicidio doloso + feminicidio, enero-abril 2026"
+    "Homicidio doloso + feminicidio, enero-mayo 2026"
 )
 ax.set_xlabel("Víctimas")
 ax.set_ylabel("Municipio")
@@ -620,7 +620,7 @@ else:
 # Para municipios, calculamos el promedio diario del periodo completo:
 #
 # promedio diario municipal del periodo =
-# total amplio municipal enero-abril / días acumulados del periodo.
+# total amplio municipal enero-mayo / días acumulados del periodo.
 #
 # El total amplio municipal es:
 # homicidio doloso + homicidio culposo + feminicidio.

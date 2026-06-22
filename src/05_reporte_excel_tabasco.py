@@ -25,7 +25,7 @@
 #   outputs/figures/analiticas/
 #
 # SALIDA:
-#   outputs/reportes/reporte_homicidios_tabasco_2026_ene_abr.xlsx
+#   outputs/reportes/reporte_homicidios_tabasco_2026_ene_may.xlsx
 # ============================================================
 
 
@@ -56,7 +56,7 @@ REPORTS_DIR = BASE_DIR / "outputs" / "reportes"
 
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
-SALIDA_EXCEL = REPORTS_DIR / "reporte_homicidios_tabasco_2026_ene_abr.xlsx"
+SALIDA_EXCEL = REPORTS_DIR / "reporte_homicidios_tabasco_2026_ene_may.xlsx"
 
 
 # ------------------------------------------------------------
@@ -211,7 +211,7 @@ def crear_portada(wb, resumen_control, estatal_mensual, ranking_municipal):
     # Título principal
     ws.merge_cells("B2:E3")
     cell = ws["B2"]
-    cell.value = "Reporte de Homicidios y Feminicidio\nTabasco, enero-abril 2026"
+    cell.value = "Reporte de Homicidios y Feminicidio\nTabasco, enero-mayo 2026"
     cell.font = Font(size=18, bold=True, color=blanco)
     cell.fill = PatternFill("solid", fgColor=azul)
     cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)

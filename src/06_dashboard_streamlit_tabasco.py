@@ -56,7 +56,7 @@ REPORTS_DIR = BASE_DIR / "outputs" / "reportes"
 GEO_DIR = BASE_DIR / "data" / "geo"
 GEO_DIR.mkdir(parents=True, exist_ok=True)
 
-REPORTE_EXCEL = REPORTS_DIR / "reporte_homicidios_tabasco_2026_ene_abr.xlsx"
+REPORTE_EXCEL = REPORTS_DIR / "reporte_homicidios_tabasco_2026_ene_may.xlsx"
 
 # Archivo local y servicio oficial INEGI.
 GEOJSON_TABASCO = GEO_DIR / "inegi_mgem_27_tabasco.geojson"

@@ -142,7 +142,7 @@ tabasco_largo["Mes_num"] = tabasco_largo["Mes"].map(ORDEN_MESES)
 # 7. Filtrar solo meses con datos
 # ------------------------------------------------------------
 
-# Como tu archivo es abr2026, nos quedamos con enero-abril.
+# Como tu archivo es abr2026, nos quedamos con enero-mayo.
 # Más adelante podemos hacer esto automático.
 tabasco_largo = tabasco_largo[tabasco_largo["Mes_num"] <= 4].copy()
 
@@ -278,7 +278,7 @@ municipal = municipal.sort_values(
 # 15. Guardar resultado
 # ------------------------------------------------------------
 
-salida = TABLES_DIR / "tabasco_municipal_homicidio_feminicidio_2026_ene_abr.csv"
+salida = TABLES_DIR / "tabasco_municipal_homicidio_feminicidio_2026_ene_may.csv"
 
 municipal.to_csv(salida, index=False, encoding="utf-8-sig")
 
@@ -303,7 +303,7 @@ estatal = (
     .sort_values("Mes_num")
 )
 
-salida_estatal = TABLES_DIR / "tabasco_estatal_homicidio_feminicidio_2026_ene_abr.csv"
+salida_estatal = TABLES_DIR / "tabasco_estatal_homicidio_feminicidio_2026_ene_may.csv"
 
 estatal.to_csv(salida_estatal, index=False, encoding="utf-8-sig")
 

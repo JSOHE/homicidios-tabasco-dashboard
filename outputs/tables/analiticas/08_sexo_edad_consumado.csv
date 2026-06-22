@@ -1,25 +1,28 @@
 ﻿categoria_analisis,Sexo,Rango de edad,Victimas
-homicidio_doloso,Hombre,30 a 60 años,83
-homicidio_culposo,Hombre,30 a 60 años,54
-homicidio_doloso,Hombre,18 a 29 años,52
-homicidio_doloso,Hombre,No especificado,42
-homicidio_culposo,Hombre,18 a 29 años,32
-homicidio_culposo,Hombre,No especificado,30
-homicidio_culposo,Hombre,Más de 60 años,19
-homicidio_doloso,Mujer,30 a 60 años,15
-homicidio_culposo,Mujer,30 a 60 años,11
+homicidio_doloso,Hombre,30 a 60 años,107
+homicidio_culposo,Hombre,30 a 60 años,73
+homicidio_doloso,Hombre,18 a 29 años,72
+homicidio_doloso,Hombre,No especificado,50
+homicidio_culposo,Hombre,No especificado,45
+homicidio_culposo,Hombre,18 a 29 años,44
+homicidio_culposo,Hombre,Más de 60 años,24
+homicidio_doloso,Mujer,30 a 60 años,20
+homicidio_culposo,Mujer,30 a 60 años,17
+homicidio_doloso,Hombre,13 a 17 años,10
 homicidio_culposo,Hombre,13 a 17 años,9
-homicidio_doloso,Hombre,13 a 17 años,9
-homicidio_doloso,Mujer,18 a 29 años,2
+feminicidio,Mujer,18 a 29 años,3
+homicidio_doloso,Mujer,18 a 29 años,3
 feminicidio,Mujer,30 a 60 años,2
-homicidio_culposo,Mujer,0 a 12 años,1
-feminicidio,Mujer,18 a 29 años,1
+homicidio_doloso,Hombre,Más de 60 años,2
+homicidio_culposo,Mujer,18 a 29 años,2
+homicidio_culposo,Mujer,13 a 17 años,2
+homicidio_culposo,Mujer,Más de 60 años,2
 feminicidio,Mujer,0 a 12 años,1
-homicidio_culposo,Mujer,13 a 17 años,1
+homicidio_culposo,Mujer,0 a 12 años,1
+homicidio_doloso,Mujer,No especificado,1
 homicidio_doloso,Mujer,13 a 17 años,1
-homicidio_doloso,Hombre,0 a 12 años,1
 homicidio_culposo,Mujer,No especificado,1
-homicidio_culposo,Mujer,Más de 60 años,1
+homicidio_doloso,Hombre,0 a 12 años,1
 homicidio_doloso,Mujer,0 a 12 años,1
 feminicidio,No identificado,No especificado,0
 homicidio_culposo,No identificado,No especificado,0

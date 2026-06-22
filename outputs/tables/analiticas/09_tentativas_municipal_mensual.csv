@@ -3,10 +3,12 @@
 2026,27,Tabasco,27001,Balancán,2,Febrero,tentativa_feminicidio,0
 2026,27,Tabasco,27001,Balancán,3,Marzo,tentativa_feminicidio,0
 2026,27,Tabasco,27001,Balancán,4,Abril,tentativa_feminicidio,1
+2026,27,Tabasco,27001,Balancán,5,Mayo,tentativa_feminicidio,0
 2026,27,Tabasco,27003,Centla,1,Enero,tentativa_feminicidio,0
 2026,27,Tabasco,27003,Centla,2,Febrero,tentativa_feminicidio,0
 2026,27,Tabasco,27003,Centla,3,Marzo,tentativa_feminicidio,1
 2026,27,Tabasco,27003,Centla,4,Abril,tentativa_feminicidio,0
+2026,27,Tabasco,27003,Centla,5,Mayo,tentativa_feminicidio,0
 2026,27,Tabasco,27004,Centro,1,Enero,tentativa_feminicidio,3
 2026,27,Tabasco,27004,Centro,1,Enero,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27004,Centro,2,Febrero,tentativa_feminicidio,1
@@ -15,14 +17,18 @@
 2026,27,Tabasco,27004,Centro,3,Marzo,tentativa_homicidio_doloso,2
 2026,27,Tabasco,27004,Centro,4,Abril,tentativa_feminicidio,3
 2026,27,Tabasco,27004,Centro,4,Abril,tentativa_homicidio_doloso,1
+2026,27,Tabasco,27004,Centro,5,Mayo,tentativa_feminicidio,5
+2026,27,Tabasco,27004,Centro,5,Mayo,tentativa_homicidio_doloso,5
 2026,27,Tabasco,27005,Comalcalco,1,Enero,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27005,Comalcalco,2,Febrero,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27005,Comalcalco,3,Marzo,tentativa_homicidio_doloso,1
 2026,27,Tabasco,27005,Comalcalco,4,Abril,tentativa_homicidio_doloso,0
+2026,27,Tabasco,27005,Comalcalco,5,Mayo,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27006,Cunduacán,1,Enero,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27006,Cunduacán,2,Febrero,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27006,Cunduacán,3,Marzo,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27006,Cunduacán,4,Abril,tentativa_homicidio_doloso,3
+2026,27,Tabasco,27006,Cunduacán,5,Mayo,tentativa_homicidio_doloso,1
 2026,27,Tabasco,27008,Huimanguillo,1,Enero,tentativa_feminicidio,0
 2026,27,Tabasco,27008,Huimanguillo,1,Enero,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27008,Huimanguillo,2,Febrero,tentativa_feminicidio,0
@@ -31,10 +37,13 @@
 2026,27,Tabasco,27008,Huimanguillo,3,Marzo,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27008,Huimanguillo,4,Abril,tentativa_feminicidio,1
 2026,27,Tabasco,27008,Huimanguillo,4,Abril,tentativa_homicidio_doloso,1
+2026,27,Tabasco,27008,Huimanguillo,5,Mayo,tentativa_feminicidio,0
+2026,27,Tabasco,27008,Huimanguillo,5,Mayo,tentativa_homicidio_doloso,3
 2026,27,Tabasco,27010,Jalpa de Méndez,1,Enero,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27010,Jalpa de Méndez,2,Febrero,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27010,Jalpa de Méndez,3,Marzo,tentativa_homicidio_doloso,2
 2026,27,Tabasco,27010,Jalpa de Méndez,4,Abril,tentativa_homicidio_doloso,0
+2026,27,Tabasco,27010,Jalpa de Méndez,5,Mayo,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27012,Macuspana,1,Enero,tentativa_feminicidio,1
 2026,27,Tabasco,27012,Macuspana,1,Enero,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27012,Macuspana,2,Febrero,tentativa_feminicidio,1
@@ -43,6 +52,8 @@
 2026,27,Tabasco,27012,Macuspana,3,Marzo,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27012,Macuspana,4,Abril,tentativa_feminicidio,0
 2026,27,Tabasco,27012,Macuspana,4,Abril,tentativa_homicidio_doloso,1
+2026,27,Tabasco,27012,Macuspana,5,Mayo,tentativa_feminicidio,0
+2026,27,Tabasco,27012,Macuspana,5,Mayo,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27999,No especificado,1,Enero,tentativa_feminicidio,0
 2026,27,Tabasco,27999,No especificado,1,Enero,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27999,No especificado,2,Febrero,tentativa_feminicidio,0
@@ -51,11 +62,15 @@
 2026,27,Tabasco,27999,No especificado,3,Marzo,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27999,No especificado,4,Abril,tentativa_feminicidio,0
 2026,27,Tabasco,27999,No especificado,4,Abril,tentativa_homicidio_doloso,0
+2026,27,Tabasco,27999,No especificado,5,Mayo,tentativa_feminicidio,0
+2026,27,Tabasco,27999,No especificado,5,Mayo,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27014,Paraíso,1,Enero,tentativa_homicidio_doloso,1
 2026,27,Tabasco,27014,Paraíso,2,Febrero,tentativa_homicidio_doloso,1
 2026,27,Tabasco,27014,Paraíso,3,Marzo,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27014,Paraíso,4,Abril,tentativa_homicidio_doloso,0
+2026,27,Tabasco,27014,Paraíso,5,Mayo,tentativa_homicidio_doloso,0
 2026,27,Tabasco,27016,Teapa,1,Enero,tentativa_feminicidio,0
 2026,27,Tabasco,27016,Teapa,2,Febrero,tentativa_feminicidio,0
 2026,27,Tabasco,27016,Teapa,3,Marzo,tentativa_feminicidio,0
 2026,27,Tabasco,27016,Teapa,4,Abril,tentativa_feminicidio,1
+2026,27,Tabasco,27016,Teapa,5,Mayo,tentativa_feminicidio,0

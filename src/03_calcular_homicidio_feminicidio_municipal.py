@@ -24,7 +24,7 @@
 #       total_homicidios_y_feminicidio / días del mes
 #
 # ENTRADA:
-#   data/raw/RNID-Víctimas_Municipal-2026-abr2026.csv
+#   data/raw/RNID-Victimas_Municipal-2026-may2026.csv
 #
 # SALIDAS:
 #   outputs/tables/analiticas/
@@ -155,7 +155,7 @@ archivos_csv = list(RAW_DIR.rglob("*.csv"))
 if len(archivos_csv) == 0:
     raise FileNotFoundError(
         "No encontré archivos CSV en data/raw. "
-        "Guarda ahí la base RNID-Víctimas_Municipal-2026-abr2026.csv."
+        "Guarda ahí la base RNID-Victimas_Municipal-2026-may2026.csv."
     )
 
 # Tomamos el archivo más reciente por fecha de modificación.
@@ -186,7 +186,7 @@ print(df.columns.tolist())
 # 7. Detectar meses disponibles
 # ------------------------------------------------------------
 
-# El archivo dice abr2026, por lo que normalmente enero-abril tienen datos
+# El archivo dice abr2026, por lo que normalmente enero-mayo tienen datos
 # y mayo-diciembre vienen vacíos.
 # Esta parte detecta automáticamente qué meses tienen algún dato no vacío.
 

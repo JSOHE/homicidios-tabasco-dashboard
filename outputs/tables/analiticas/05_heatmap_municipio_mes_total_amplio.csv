@@ -1,19 +1,19 @@
-﻿Municipio,Enero,Febrero,Marzo,Abril,Total
-Centro,23.0,29.0,41.0,35.0,128.0
-Huimanguillo,10.0,5.0,13.0,11.0,39.0
-Cunduacán,10.0,10.0,6.0,8.0,34.0
-Cárdenas,5.0,6.0,14.0,6.0,31.0
-Comalcalco,14.0,3.0,2.0,3.0,22.0
-Nacajuca,6.0,12.0,2.0,2.0,22.0
-Jalpa de Méndez,3.0,7.0,2.0,8.0,20.0
-Macuspana,2.0,5.0,8.0,2.0,17.0
-Centla,0.0,2.0,7.0,4.0,13.0
-Teapa,3.0,3.0,2.0,2.0,10.0
-Jalapa,2.0,0.0,0.0,8.0,10.0
-Paraíso,1.0,2.0,1.0,3.0,7.0
-Tenosique,0.0,2.0,1.0,2.0,5.0
-Emiliano Zapata,0.0,0.0,1.0,4.0,5.0
-Balancán,0.0,0.0,1.0,3.0,4.0
-Jonuta,1.0,0.0,1.0,0.0,2.0
-No especificado,0.0,0.0,0.0,0.0,0.0
-Tacotalpa,0.0,0.0,0.0,0.0,0.0
+﻿Municipio,Enero,Febrero,Marzo,Abril,Mayo,Total
+Centro,23,29,41,35,49,177
+Huimanguillo,10,5,13,11,10,49
+Cárdenas,5,6,14,6,15,46
+Cunduacán,10,10,6,8,5,39
+Comalcalco,14,3,2,3,9,31
+Nacajuca,6,12,2,2,6,28
+Jalpa de Méndez,3,7,2,8,7,27
+Macuspana,2,5,8,2,2,19
+Centla,0,2,7,4,4,17
+Teapa,3,3,2,2,4,14
+Paraíso,1,2,1,3,7,14
+Tenosique,0,2,1,2,5,10
+Jalapa,2,0,0,8,0,10
+Emiliano Zapata,0,0,1,4,1,6
+Balancán,0,0,1,3,0,4
+Jonuta,1,0,1,0,0,2
+Tacotalpa,0,0,0,0,1,1
+No especificado,0,0,0,0,0,0
