@@ -41,6 +41,7 @@ import re
 import calendar
 
 import pandas as pd
+from config_actualizacion import seleccionar_csv_municipal_mas_reciente
 
 
 # ------------------------------------------------------------
@@ -150,12 +151,10 @@ def porcentaje_seguro(numerador, denominador):
 # 5. Buscar archivo CSV en data/raw
 # ------------------------------------------------------------
 
-archivo_datos = RAW_DIR / "RNID-Victimas_Municipal-2026-may2026.csv"
-
-if not archivo_datos.exists():
-    raise FileNotFoundError(
-        f"No encontré el archivo esperado: {archivo_datos}"
-    )
+archivo_datos = seleccionar_csv_municipal_mas_reciente(
+    RAW_DIR,
+    anio=2026,
+)
 
 print("\nArchivo seleccionado:")
 print(archivo_datos)
@@ -178,8 +177,8 @@ print(df.columns.tolist())
 # 7. Detectar meses disponibles
 # ------------------------------------------------------------
 
-# El archivo de mayo de 2026 contiene datos de enero a mayo
-# y junio-diciembre vienen vacíos.
+# El archivo más reciente se selecciona automáticamente.
+# También se detectan automáticamente los meses con datos.
 # Esta parte detecta automáticamente qué meses tienen algún dato no vacío.
 
 meses_disponibles = []

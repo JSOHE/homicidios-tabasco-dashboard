@@ -25,7 +25,7 @@
 #   outputs/figures/analiticas/
 #
 # SALIDA:
-#   outputs/reportes/reporte_homicidios_tabasco_2026_ene_may.xlsx
+#   outputs/reportes/reporte_homicidios_tabasco_2026_actual.xlsx
 # ============================================================
 
 
@@ -56,7 +56,7 @@ REPORTS_DIR = BASE_DIR / "outputs" / "reportes"
 
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
-SALIDA_EXCEL = REPORTS_DIR / "reporte_homicidios_tabasco_2026_ene_may.xlsx"
+SALIDA_EXCEL = REPORTS_DIR / "reporte_homicidios_tabasco_2026_actual.xlsx"
 
 
 # ------------------------------------------------------------

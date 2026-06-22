@@ -13,6 +13,7 @@
 
 from pathlib import Path
 import pandas as pd
+from config_actualizacion import detectar_meses_disponibles, seleccionar_csv_municipal_mas_reciente
 
 
 # ------------------------------------------------------------
@@ -58,17 +59,19 @@ ORDEN_MESES = {
 # 3. Leer archivo
 # ------------------------------------------------------------
 
-archivo_datos = RAW_DIR / "RNID-Victimas_Municipal-2026-may2026.csv"
-
-if not archivo_datos.exists():
-    raise FileNotFoundError(
-        f"No encontré el archivo esperado: {archivo_datos}"
-    )
+archivo_datos = seleccionar_csv_municipal_mas_reciente(
+    RAW_DIR,
+    anio=2026,
+)
 
 print("Archivo que voy a leer:")
 print(archivo_datos)
 
 df = pd.read_csv(archivo_datos, encoding="latin-1")
+
+meses_disponibles = detectar_meses_disponibles(df)
+print("\nMeses disponibles detectados:")
+print(meses_disponibles)
 
 
 # ------------------------------------------------------------
@@ -109,7 +112,7 @@ columnas_identificacion = [
 
 tabasco_largo = tabasco.melt(
     id_vars=columnas_identificacion,
-    value_vars=MESES,
+    value_vars=meses_disponibles,
     var_name="Mes",
     value_name="Victimas"
 )
@@ -142,8 +145,7 @@ tabasco_largo["Mes_num"] = tabasco_largo["Mes"].map(ORDEN_MESES)
 # 7. Filtrar solo meses con datos
 # ------------------------------------------------------------
 
-# El archivo de mayo contiene información de enero a mayo.
-tabasco_largo = tabasco_largo[tabasco_largo["Mes_num"] <= 5].copy()
+# Los meses se detectan automáticamente desde el CSV seleccionado.
 
 
 # ------------------------------------------------------------
@@ -277,7 +279,7 @@ municipal = municipal.sort_values(
 # 15. Guardar resultado
 # ------------------------------------------------------------
 
-salida = TABLES_DIR / "tabasco_municipal_homicidio_feminicidio_2026_ene_may.csv"
+salida = TABLES_DIR / "tabasco_municipal_homicidio_feminicidio_2026_actual.csv"
 
 municipal.to_csv(salida, index=False, encoding="utf-8-sig")
 
@@ -302,7 +304,7 @@ estatal = (
     .sort_values("Mes_num")
 )
 
-salida_estatal = TABLES_DIR / "tabasco_estatal_homicidio_feminicidio_2026_ene_may.csv"
+salida_estatal = TABLES_DIR / "tabasco_estatal_homicidio_feminicidio_2026_actual.csv"
 
 estatal.to_csv(salida_estatal, index=False, encoding="utf-8-sig")
 
