@@ -2,39 +2,11 @@
 # PROYECTO: Homicidios en Tabasco con datos del SESNSP/RNID
 # SCRIPT 06: Dashboard interactivo en Streamlit
 #
-# OBJETIVO:
-#   Crear un tablero interactivo para explorar:
-#   1. Homicidio doloso
-#   2. Homicidio culposo
-#   3. Feminicidio
-#   4. Total intencional
-#   5. Total homicidios y feminicidio
-#   6. Promedio diario
-#   7. Ranking municipal
-#   8. Heatmap municipio-mes
-#   9. Mapa coroplético municipal
-#   10. Modalidades
-#   11. Sexo y edad
-#   12. Tentativas
-#
-# AJUSTES INCLUIDOS:
-#   - Usa geometría municipal oficial del INEGI para Tabasco.
-#   - Evita el GeoJSON anterior incorrecto.
-#   - El mapa muestra líneas de división municipal.
-#   - El mapa muestra nombres de municipios.
-#   - "No especificado" se conserva en tablas, pero no se pinta en el mapa.
-#   - El mapa usa escala continua con raíz cuadrada.
-#   - El selector "Mes para el mapa" muestra:
-#       Enero, Febrero, Marzo, Abril...
-#       Acumulado Enero - Abril
-#     y se actualiza automáticamente cuando aparezcan nuevos meses.
-#   - El mapa SIEMPRE respeta el panel lateral.
-#   - Se elimina el botón "Aplicar filtro de municipios del panel lateral".
-#
-# NOTA METODOLÓGICA DEL MAPA:
-#   La raíz cuadrada solo se usa para mejorar la visualización.
-#   Los datos reales no se modifican.
-#   Las tablas, hover y totales muestran víctimas reales.
+# ACTUALIZACIÓN:
+#   - Mantiene todas las secciones del dashboard.
+#   - En la pestaña Estado agrega una tabla específica con:
+#       Mes | Homicidios dolosos
+#   - La tabla respeta los meses seleccionados en el panel lateral.
 #
 # EJECUCIÓN:
 #   python -m streamlit run src/06_dashboard_streamlit_tabasco.py
@@ -72,7 +44,7 @@ st.set_page_config(
 
 
 # ------------------------------------------------------------
-# 3. Definir rutas del proyecto
+# 3. Definir rutas portables del proyecto
 # ------------------------------------------------------------
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -86,29 +58,14 @@ GEO_DIR.mkdir(parents=True, exist_ok=True)
 
 REPORTE_EXCEL = REPORTS_DIR / "reporte_homicidios_tabasco_2026_ene_abr.xlsx"
 
-# Archivo local del GeoJSON oficial de INEGI.
+# Archivo local y servicio oficial INEGI.
 GEOJSON_TABASCO = GEO_DIR / "inegi_mgem_27_tabasco.geojson"
-
-# Servicio oficial INEGI para áreas geoestadísticas municipales de Tabasco.
-# 27 = clave geoestadística estatal de Tabasco.
 GEOJSON_URL = "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgem/27"
 
 
 # ------------------------------------------------------------
-# 4. Escala continua recomendada para el mapa
+# 4. Escala continua para el mapa
 # ------------------------------------------------------------
-
-# Esta escala es continua, no por clases.
-#
-# Se usa junto con una transformación de raíz cuadrada:
-#   valor_color = sqrt(víctimas)
-#
-# Eso permite que los municipios con valores bajos y medios
-# sean más visibles cuando hay un municipio con valor muy alto.
-#
-# Importante:
-#   Los datos reales NO se modifican.
-#   Solo se transforma el valor usado para colorear.
 
 ESCALA_CONTINUA_ROJO_SQRT = [
     [0.00, "#FFF5F5"],
@@ -118,19 +75,12 @@ ESCALA_CONTINUA_ROJO_SQRT = [
 
 
 # ------------------------------------------------------------
-# 5. Funciones auxiliares generales
+# 5. Funciones auxiliares
 # ------------------------------------------------------------
 
 def normalizar_texto(valor):
     """
-    Convierte texto a una forma más fácil de comparar:
-    - minúsculas
-    - sin acentos
-    - sin espacios dobles
-
-    Ejemplos:
-        'Cárdenas' -> 'cardenas'
-        'Jalpa de Méndez' -> 'jalpa de mendez'
+    Convierte texto a minúsculas, sin acentos y sin espacios dobles.
     """
     if pd.isna(valor):
         return ""
@@ -144,32 +94,18 @@ def normalizar_texto(valor):
 
 def separar_registros_no_geograficos(df, columna_municipio="Municipio"):
     """
-    Separa registros que no pueden pintarse en un mapa.
-
-    En la base municipal del SESNSP puede aparecer 'No especificado'.
-    Ese valor sirve para conservar el dato estadístico, pero no es un
-    municipio real y por lo tanto no tiene polígono en el GeoJSON.
-
-    Devuelve:
-        df_geo:
-            registros que sí corresponden a municipios reales.
-
-        df_no_geo:
-            registros como 'No especificado', que se reportan aparte
-            pero no se dibujan en el mapa.
+    Separa municipios reales de registros como 'No especificado'.
     """
-
     valores_no_geograficos = {
         "no especificado",
         "sin especificar",
         "no determinado",
         "no identificado",
         "se ignora",
-        "ignorado"
+        "ignorado",
     }
 
     df_temp = df.copy()
-
     df_temp["_municipio_norm_temp"] = df_temp[columna_municipio].apply(
         normalizar_texto
     )
@@ -190,19 +126,8 @@ def separar_registros_no_geograficos(df, columna_municipio="Municipio"):
 
 def extraer_puntos_de_geometria(geometry):
     """
-    Extrae puntos lon/lat desde una geometría GeoJSON.
-
-    Soporta:
-        - Polygon
-        - MultiPolygon
-
-    Regresa una lista de pares:
-        [(lon, lat), (lon, lat), ...]
-
-    Esta función se usa para calcular un centro aproximado
-    del municipio y colocar ahí el nombre.
+    Extrae puntos lon/lat de geometrías Polygon o MultiPolygon.
     """
-
     puntos = []
 
     if geometry is None:
@@ -219,10 +144,9 @@ def extraer_puntos_de_geometria(geometry):
                     puntos.append((punto[0], punto[1]))
 
     elif tipo == "MultiPolygon":
-        poligonos = coords
         mejor_anillo = []
 
-        for poligono in poligonos:
+        for poligono in coords:
             if len(poligono) > 0:
                 anillo_exterior = poligono[0]
                 if len(anillo_exterior) > len(mejor_anillo):
@@ -237,15 +161,8 @@ def extraer_puntos_de_geometria(geometry):
 
 def calcular_centroide_aproximado(geometry):
     """
-    Calcula un centro aproximado para colocar etiquetas.
-
-    No es un centroide geográfico perfecto.
-    Es suficiente para ubicar el nombre del municipio en el tablero.
-
-    Método:
-        promedio de longitudes y latitudes del anillo exterior.
+    Calcula un punto aproximado para colocar la etiqueta municipal.
     """
-
     puntos = extraer_puntos_de_geometria(geometry)
 
     if len(puntos) == 0:
@@ -259,18 +176,8 @@ def calcular_centroide_aproximado(geometry):
 
 def agregar_valores_mapa_sqrt(df, columna_valor):
     """
-    Agrega dos columnas para el mapa:
-
-        valor_mapa:
-            valor real del indicador seleccionado.
-
-        valor_mapa_sqrt:
-            raíz cuadrada del valor real.
-
-    La columna valor_mapa_sqrt se usa solo para colorear.
-    La columna valor_mapa mantiene el dato real.
+    Conserva el valor real y crea una raíz cuadrada para colorear el mapa.
     """
-
     df = df.copy()
 
     df["valor_mapa"] = pd.to_numeric(
@@ -287,18 +194,8 @@ def agregar_valores_mapa_sqrt(df, columna_valor):
 
 def crear_ticks_colorbar(valor_maximo):
     """
-    Crea etiquetas para la barra de color del mapa.
-
-    Como el color usa sqrt(víctimas), internamente Plotly ve valores
-    transformados. Para que el usuario lea víctimas reales, creamos:
-
-        tickvals:
-            valores transformados con sqrt.
-
-        ticktext:
-            valores reales mostrados en la leyenda.
+    Crea marcas reales para la barra de color aunque el mapa use raíz cuadrada.
     """
-
     try:
         vmax = int(math.ceil(float(valor_maximo)))
     except Exception:
@@ -315,13 +212,11 @@ def crear_ticks_colorbar(valor_maximo):
             int(round(vmax * 0.25)),
             int(round(vmax * 0.50)),
             int(round(vmax * 0.75)),
-            vmax
+            vmax,
         ]
 
-    # Quitar duplicados y ordenar.
     ticks_reales = sorted(set(ticks_reales))
 
-    # Asegurar que 0 y máximo estén presentes.
     if 0 not in ticks_reales:
         ticks_reales.insert(0, 0)
 
@@ -336,27 +231,8 @@ def crear_ticks_colorbar(valor_maximo):
 
 def construir_opciones_periodo_mapa(meses_df):
     """
-    Construye opciones dinámicas para el selector 'Mes para el mapa'.
-
-    Ejemplo con enero-abril:
-        Enero
-        Febrero
-        Marzo
-        Abril
-        Acumulado Enero - Abril
-
-    Cuando el archivo tenga mayo:
-        Enero
-        Febrero
-        Marzo
-        Abril
-        Mayo
-        Acumulado Enero - Mayo
-
-    Esta función usa los meses que estén disponibles y seleccionados
-    en el panel lateral.
+    Construye opciones mensuales y una opción acumulada dinámica.
     """
-
     meses_df = meses_df.copy().sort_values("Mes_num")
 
     if meses_df.empty:
@@ -368,7 +244,6 @@ def construir_opciones_periodo_mapa(meses_df):
     ultimo_mes = meses_df.iloc[-1]["Mes"]
 
     etiqueta_acumulado = f"Acumulado {primer_mes} - {ultimo_mes}"
-
     opciones.append(etiqueta_acumulado)
 
     metadata = {}
@@ -377,13 +252,13 @@ def construir_opciones_periodo_mapa(meses_df):
         metadata[fila["Mes"]] = {
             "tipo": "mes",
             "meses": [fila["Mes"]],
-            "titulo": fila["Mes"]
+            "titulo": fila["Mes"],
         }
 
     metadata[etiqueta_acumulado] = {
         "tipo": "acumulado",
         "meses": meses_df["Mes"].tolist(),
-        "titulo": etiqueta_acumulado
+        "titulo": etiqueta_acumulado,
     }
 
     return opciones, metadata
@@ -393,11 +268,7 @@ def construir_opciones_periodo_mapa(meses_df):
 def leer_tabla(nombre_archivo):
     """
     Lee una tabla CSV desde outputs/tables/analiticas.
-
-    st.cache_data guarda temporalmente el resultado.
-    Esto evita que Streamlit lea el mismo archivo cada vez que cambias filtros.
     """
-
     ruta = TABLES_DIR / nombre_archivo
 
     if not ruta.exists():
@@ -413,35 +284,17 @@ def leer_tabla(nombre_archivo):
 @st.cache_data
 def cargar_geojson_tabasco():
     """
-    Descarga y carga el GeoJSON municipal oficial del INEGI para Tabasco.
-
-    Servicio usado:
-        https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgem/27
-
-    El archivo se guarda localmente en:
-        data/geo/inegi_mgem_27_tabasco.geojson
-
-    A cada polígono se le agrega:
-        municipio_geo
-        municipio_norm
-        label_lon
-        label_lat
-
-    municipio_norm será la llave de unión con la tabla del SESNSP.
-    label_lon y label_lat se usan para colocar el nombre del municipio.
+    Descarga y carga la geometría municipal oficial del INEGI para Tabasco.
     """
-
     if not GEOJSON_TABASCO.exists():
         try:
             urllib.request.urlretrieve(GEOJSON_URL, GEOJSON_TABASCO)
         except Exception as e:
             st.error(
-                "No pude descargar el GeoJSON municipal oficial de Tabasco desde INEGI.\n\n"
-                "Revisa tu conexión a internet o descarga manualmente el archivo "
-                "desde esta dirección:\n\n"
-                f"{GEOJSON_URL}\n\n"
-                "y guárdalo como:\n\n"
-                f"{GEOJSON_TABASCO}\n\n"
+                "No pude descargar el GeoJSON municipal oficial de Tabasco "
+                "desde INEGI.\n\n"
+                f"Dirección: {GEOJSON_URL}\n\n"
+                f"Guárdalo manualmente como: {GEOJSON_TABASCO}\n\n"
                 f"Error original: {e}"
             )
             st.stop()
@@ -451,8 +304,8 @@ def cargar_geojson_tabasco():
 
     if "features" not in geojson:
         st.error(
-            "El archivo descargado desde INEGI no tiene la estructura GeoJSON esperada. "
-            "Falta la llave 'features'."
+            "El archivo descargado desde INEGI no tiene la estructura "
+            "GeoJSON esperada. Falta la llave 'features'."
         )
         st.stop()
 
@@ -466,21 +319,18 @@ def cargar_geojson_tabasco():
         "nombre",
         "Nombre",
         "NAME",
-        "name"
+        "name",
     ]
 
     features_limpias = []
 
     for feature in geojson["features"]:
-
         props = feature.setdefault("properties", {})
 
-        # El servicio de INEGI normalmente trae:
-        # cvegeo, cve_ent, cve_mun, nomgeo.
-        cve_ent = str(props.get("cve_ent", props.get("CVE_ENT", ""))).zfill(2)
+        cve_ent = str(
+            props.get("cve_ent", props.get("CVE_ENT", ""))
+        ).zfill(2)
 
-        # Por seguridad, filtramos solo Tabasco.
-        # Si cve_ent no viene en el servicio, permitimos vacío porque la URL ya filtra 27.
         if cve_ent not in ["", "27"]:
             continue
 
@@ -493,15 +343,19 @@ def cargar_geojson_tabasco():
 
         if nombre_municipio is None:
             st.error(
-                "No pude detectar el nombre municipal dentro del GeoJSON del INEGI.\n\n"
-                f"Campos disponibles en una geometría: {list(props.keys())}"
+                "No pude detectar el nombre municipal dentro del GeoJSON "
+                "del INEGI.\n\n"
+                f"Campos disponibles: {list(props.keys())}"
             )
             st.stop()
 
         props["municipio_geo"] = str(nombre_municipio)
         props["municipio_norm"] = normalizar_texto(nombre_municipio)
 
-        label_lon, label_lat = calcular_centroide_aproximado(feature.get("geometry"))
+        label_lon, label_lat = calcular_centroide_aproximado(
+            feature.get("geometry")
+        )
+
         props["label_lon"] = label_lon
         props["label_lat"] = label_lat
 
@@ -509,7 +363,6 @@ def cargar_geojson_tabasco():
 
     geojson["features"] = features_limpias
 
-    # Validación mínima: Tabasco debe tener 17 municipios.
     municipios_detectados = sorted(
         {
             feature["properties"]["municipio_norm"]
@@ -519,17 +372,14 @@ def cargar_geojson_tabasco():
 
     if len(municipios_detectados) != 17:
         st.warning(
-            "Advertencia: el GeoJSON cargado no contiene exactamente 17 municipios. "
-            f"Municipios detectados: {len(municipios_detectados)}.\n\n"
-            "Revisa la fuente geográfica."
+            "Advertencia: el GeoJSON cargado no contiene exactamente "
+            f"17 municipios. Municipios detectados: {len(municipios_detectados)}."
         )
 
-    # Validación para evitar el error del GeoJSON anterior.
     if "catazaja" in municipios_detectados:
         st.error(
             "El GeoJSON contiene Catazajá, que pertenece a Chiapas. "
-            "Esto indica que se está usando un mapa incorrecto. "
-            "Borra el archivo GeoJSON local y vuelve a cargar el tablero."
+            "Borra el archivo geográfico local y vuelve a ejecutar el tablero."
         )
         st.stop()
 
@@ -537,9 +387,6 @@ def cargar_geojson_tabasco():
 
 
 def formatear_numero(valor):
-    """
-    Formatea números enteros con separador de miles.
-    """
     try:
         return f"{float(valor):,.0f}"
     except Exception:
@@ -547,9 +394,6 @@ def formatear_numero(valor):
 
 
 def formatear_decimal(valor):
-    """
-    Formatea números decimales con dos posiciones.
-    """
     try:
         return f"{float(valor):,.2f}"
     except Exception:
@@ -557,16 +401,10 @@ def formatear_decimal(valor):
 
 
 def guardar_figura_streamlit(fig):
-    """
-    Muestra una figura de matplotlib en Streamlit.
-    """
     st.pyplot(fig, clear_figure=True)
 
 
 def agregar_etiquetas_barras_horizontales(ax, decimales=0):
-    """
-    Agrega etiquetas al final de barras horizontales.
-    """
     for barra in ax.patches:
         ancho = barra.get_width()
         y = barra.get_y() + barra.get_height() / 2
@@ -581,7 +419,7 @@ def agregar_etiquetas_barras_horizontales(ax, decimales=0):
             y,
             etiqueta,
             va="center",
-            fontsize=9
+            fontsize=9,
         )
 
 
@@ -613,29 +451,32 @@ municipal_mensual["municipio_norm"] = municipal_mensual["Municipio"].apply(
     normalizar_texto
 )
 
-municipal_mensual_geo, municipal_mensual_no_geo = separar_registros_no_geograficos(
-    municipal_mensual,
-    columna_municipio="Municipio"
+municipal_mensual_geo, municipal_mensual_no_geo = (
+    separar_registros_no_geograficos(
+        municipal_mensual,
+        columna_municipio="Municipio",
+    )
 )
 
-municipal_mensual_geo["municipio_norm"] = municipal_mensual_geo["Municipio"].apply(
-    normalizar_texto
+municipal_mensual_geo["municipio_norm"] = (
+    municipal_mensual_geo["Municipio"].apply(normalizar_texto)
 )
 
-municipal_mensual_no_geo["municipio_norm"] = municipal_mensual_no_geo["Municipio"].apply(
-    normalizar_texto
+municipal_mensual_no_geo["municipio_norm"] = (
+    municipal_mensual_no_geo["Municipio"].apply(normalizar_texto)
 )
 
 municipios_geo = []
 
 for feature in geojson_tabasco["features"]:
     props = feature["properties"]
+
     municipios_geo.append(
         {
             "municipio_geo": props.get("municipio_geo"),
             "municipio_norm": props.get("municipio_norm"),
             "label_lon": props.get("label_lon"),
-            "label_lat": props.get("label_lat")
+            "label_lat": props.get("label_lat"),
         }
     )
 
@@ -647,16 +488,19 @@ municipios_geo_df = pd.DataFrame(municipios_geo).drop_duplicates()
 # ------------------------------------------------------------
 
 st.title("📊 Dashboard de Homicidios y Feminicidio en Tabasco")
+
 st.caption(
-    "Fuente principal: SESNSP/RNID. Geometría municipal: INEGI, Marco Geoestadístico municipal."
+    "Fuente principal: SESNSP/RNID. "
+    "Geometría municipal: INEGI, Marco Geoestadístico municipal."
 )
 
 st.markdown(
     """
-    Este tablero analiza víctimas de **homicidio doloso**, **homicidio culposo**
-    y **feminicidio consumado**.
+    Este tablero analiza víctimas de **homicidio doloso**,
+    **homicidio culposo** y **feminicidio consumado**.
 
-    Las **tentativas** se presentan por separado y no se suman al total de homicidios consumados.
+    Las **tentativas** se presentan por separado y no se suman
+    al total de homicidios consumados.
     """
 )
 
@@ -678,15 +522,17 @@ lista_meses = meses_disponibles["Mes"].tolist()
 meses_seleccionados = st.sidebar.multiselect(
     "Selecciona mes(es)",
     options=lista_meses,
-    default=lista_meses
+    default=lista_meses,
 )
 
-lista_municipios = sorted(municipal_mensual["Municipio"].dropna().unique().tolist())
+lista_municipios = sorted(
+    municipal_mensual["Municipio"].dropna().unique().tolist()
+)
 
 municipios_seleccionados = st.sidebar.multiselect(
     "Selecciona municipio(s)",
     options=lista_municipios,
-    default=lista_municipios
+    default=lista_municipios,
 )
 
 indicador_seleccionado = st.sidebar.selectbox(
@@ -696,16 +542,16 @@ indicador_seleccionado = st.sidebar.selectbox(
         "total_intencional",
         "homicidio_doloso",
         "homicidio_culposo",
-        "feminicidio"
+        "feminicidio",
     ],
-    index=0
+    index=0,
 )
 
 st.sidebar.markdown("---")
 
 mostrar_tablas = st.sidebar.checkbox(
     "Mostrar tablas debajo de las gráficas",
-    value=True
+    value=True,
 )
 
 top_n = st.sidebar.slider(
@@ -713,7 +559,7 @@ top_n = st.sidebar.slider(
     min_value=5,
     max_value=17,
     value=10,
-    step=1
+    step=1,
 )
 
 
@@ -723,8 +569,7 @@ top_n = st.sidebar.slider(
 
 municipal_filtrado = municipal_mensual[
     municipal_mensual["Mes"].isin(meses_seleccionados)
-    &
-    municipal_mensual["Municipio"].isin(municipios_seleccionados)
+    & municipal_mensual["Municipio"].isin(municipios_seleccionados)
 ].copy()
 
 estatal_filtrado = estatal_mensual[
@@ -741,20 +586,21 @@ tentativas_estatal_filtrado = tentativas_estatal[
 
 tentativas_municipal_filtrado = tentativas_municipal[
     tentativas_municipal["Mes"].isin(meses_seleccionados)
-    &
-    tentativas_municipal["Municipio"].isin(municipios_seleccionados)
+    & tentativas_municipal["Municipio"].isin(municipios_seleccionados)
 ].copy()
 
 
 # ------------------------------------------------------------
-# 11. Cálculos principales para tarjetas métricas
+# 11. Cálculos principales
 # ------------------------------------------------------------
 
 total_doloso = municipal_filtrado["homicidio_doloso"].sum()
 total_culposo = municipal_filtrado["homicidio_culposo"].sum()
 total_feminicidio = municipal_filtrado["feminicidio"].sum()
 total_intencional = municipal_filtrado["total_intencional"].sum()
-total_amplio = municipal_filtrado["total_homicidios_y_feminicidio"].sum()
+total_amplio = municipal_filtrado[
+    "total_homicidios_y_feminicidio"
+].sum()
 
 dias_periodo = (
     municipal_filtrado[["Año", "Mes_num", "dias_mes"]]
@@ -769,14 +615,13 @@ else:
 
 ranking_filtrado = (
     municipal_filtrado
-    .groupby("Municipio", as_index=False)
-    [
+    .groupby("Municipio", as_index=False)[
         [
             "homicidio_doloso",
             "homicidio_culposo",
             "feminicidio",
             "total_intencional",
-            "total_homicidios_y_feminicidio"
+            "total_homicidios_y_feminicidio",
         ]
     ]
     .sum()
@@ -790,7 +635,7 @@ ranking_filtrado["promedio_diario_periodo"] = (
 
 ranking_filtrado = ranking_filtrado.sort_values(
     indicador_seleccionado,
-    ascending=False
+    ascending=False,
 )
 
 if not ranking_filtrado.empty:
@@ -814,16 +659,26 @@ col4.metric("Feminicidio", formatear_numero(total_feminicidio))
 col5.metric("Promedio diario", formatear_decimal(promedio_diario_periodo))
 
 st.info(
-    f"Municipio con mayor valor en el indicador seleccionado: "
+    "Municipio con mayor valor en el indicador seleccionado: "
     f"**{municipio_top}** ({formatear_numero(valor_top)} víctimas)."
 )
 
 
 # ------------------------------------------------------------
-# 13. Crear pestañas del dashboard
+# 13. Crear pestañas
 # ------------------------------------------------------------
 
-tab_resumen, tab_estado, tab_municipios, tab_mapa, tab_heatmap, tab_modalidad, tab_perfil, tab_tentativas, tab_reporte = st.tabs(
+(
+    tab_resumen,
+    tab_estado,
+    tab_municipios,
+    tab_mapa,
+    tab_heatmap,
+    tab_modalidad,
+    tab_perfil,
+    tab_tentativas,
+    tab_reporte,
+) = st.tabs(
     [
         "Resumen",
         "Estado",
@@ -833,7 +688,7 @@ tab_resumen, tab_estado, tab_municipios, tab_mapa, tab_heatmap, tab_modalidad, t
         "Modalidad",
         "Sexo y edad",
         "Tentativas",
-        "Reporte"
+        "Reporte",
     ]
 )
 
@@ -851,40 +706,51 @@ with tab_resumen:
 
         - **Total amplio:** homicidio doloso + homicidio culposo + feminicidio.
         - **Total intencional:** homicidio doloso + feminicidio.
-        - **Promedio diario:** total amplio dividido entre los días del mes o periodo seleccionado.
-        - **Tentativas:** se analizan aparte; no se suman al total consumado.
-        - **No especificado:** se conserva en tablas y totales, pero no se pinta en mapas.
+        - **Promedio diario:** total amplio dividido entre los días del periodo.
+        - **Tentativas:** se analizan aparte.
+        - **No especificado:** se conserva en tablas y totales,
+          pero no se pinta en mapas.
         """
     )
 
-    resumen_df = pd.DataFrame({
-        "Indicador": [
-            "Homicidio doloso",
-            "Homicidio culposo",
-            "Feminicidio",
-            "Total intencional",
-            "Total amplio",
-            "Días del periodo seleccionado",
-            "Promedio diario del periodo",
-            "Municipio principal"
-        ],
-        "Valor": [
-            total_doloso,
-            total_culposo,
-            total_feminicidio,
-            total_intencional,
-            total_amplio,
-            dias_periodo,
-            round(promedio_diario_periodo, 2),
-            municipio_top
-        ]
-    })
+    resumen_df = pd.DataFrame(
+        {
+            "Indicador": [
+                "Homicidio doloso",
+                "Homicidio culposo",
+                "Feminicidio",
+                "Total intencional",
+                "Total amplio",
+                "Días del periodo seleccionado",
+                "Promedio diario del periodo",
+                "Municipio principal",
+            ],
+            "Valor": [
+                total_doloso,
+                total_culposo,
+                total_feminicidio,
+                total_intencional,
+                total_amplio,
+                dias_periodo,
+                round(promedio_diario_periodo, 2),
+                municipio_top,
+            ],
+        }
+    )
 
-    st.dataframe(resumen_df, use_container_width=True, hide_index=True)
+    st.dataframe(
+        resumen_df,
+        use_container_width=True,
+        hide_index=True,
+    )
 
     if mostrar_tablas:
         st.markdown("### Ranking filtrado")
-        st.dataframe(ranking_filtrado, use_container_width=True, hide_index=True)
+        st.dataframe(
+            ranking_filtrado,
+            use_container_width=True,
+            hide_index=True,
+        )
 
 
 # ------------------------------------------------------------
@@ -894,21 +760,25 @@ with tab_resumen:
 with tab_estado:
     st.subheader("Análisis estatal mensual")
 
-    estatal_plot = estatal_filtrado.sort_values("Mes_num")
+    estatal_plot = estatal_filtrado.sort_values("Mes_num").copy()
+
+    # --------------------------------------------------------
+    # Gráfica estatal total consumado
+    # --------------------------------------------------------
 
     fig, ax = plt.subplots(figsize=(10, 5))
 
     ax.bar(
         estatal_plot["Mes"],
         estatal_plot["homicidio_doloso"],
-        label="Homicidio doloso"
+        label="Homicidio doloso",
     )
 
     ax.bar(
         estatal_plot["Mes"],
         estatal_plot["homicidio_culposo"],
         bottom=estatal_plot["homicidio_doloso"],
-        label="Homicidio culposo"
+        label="Homicidio culposo",
     )
 
     bottom_feminicidio = (
@@ -920,17 +790,19 @@ with tab_estado:
         estatal_plot["Mes"],
         estatal_plot["feminicidio"],
         bottom=bottom_feminicidio,
-        label="Feminicidio"
+        label="Feminicidio",
     )
 
-    for i, total in enumerate(estatal_plot["total_homicidios_y_feminicidio"]):
+    for i, total in enumerate(
+        estatal_plot["total_homicidios_y_feminicidio"]
+    ):
         ax.text(
             i,
             total,
             f"{total:.0f}",
             ha="center",
             va="bottom",
-            fontsize=9
+            fontsize=9,
         )
 
     ax.set_title("Tabasco: homicidio total consumado por mes")
@@ -940,21 +812,104 @@ with tab_estado:
 
     guardar_figura_streamlit(fig)
 
+    # --------------------------------------------------------
+    # NUEVA GRÁFICA: homicidio doloso consumado por mes
+    # --------------------------------------------------------
+
+    st.markdown("### Homicidio doloso por mes")
+
+    if estatal_plot.empty:
+        st.info(
+            "No hay información estatal para los meses seleccionados."
+        )
+    else:
+        grafica_doloso_mensual = estatal_plot[
+            ["Mes_num", "Mes", "homicidio_doloso"]
+        ].copy()
+
+        grafica_doloso_mensual["homicidio_doloso"] = pd.to_numeric(
+            grafica_doloso_mensual["homicidio_doloso"],
+            errors="coerce"
+        ).fillna(0)
+
+        grafica_doloso_mensual = (
+            grafica_doloso_mensual
+            .groupby(
+                ["Mes_num", "Mes"],
+                as_index=False
+            )["homicidio_doloso"]
+            .sum()
+            .sort_values("Mes_num")
+        )
+
+        fig_doloso, ax_doloso = plt.subplots(
+            figsize=(10, 4.5)
+        )
+
+        barras_doloso = ax_doloso.bar(
+            grafica_doloso_mensual["Mes"],
+            grafica_doloso_mensual["homicidio_doloso"]
+        )
+
+        # Colocar el número de víctimas sobre cada barra.
+        for barra, valor in zip(
+            barras_doloso,
+            grafica_doloso_mensual["homicidio_doloso"]
+        ):
+            ax_doloso.text(
+                barra.get_x() + barra.get_width() / 2,
+                barra.get_height(),
+                f"{valor:.0f}",
+                ha="center",
+                va="bottom",
+                fontsize=10,
+                fontweight="bold"
+            )
+
+        ax_doloso.set_title(
+            "Tabasco: homicidio doloso por mes"
+        )
+        ax_doloso.set_xlabel("Mes")
+        ax_doloso.set_ylabel("Víctimas")
+        ax_doloso.grid(
+            axis="y",
+            alpha=0.3
+        )
+
+        guardar_figura_streamlit(fig_doloso)
+
+        total_doloso_estatal = (
+            grafica_doloso_mensual["homicidio_doloso"]
+            .sum()
+        )
+
+        st.metric(
+            "Total de homicidios dolosos del periodo seleccionado",
+            formatear_numero(total_doloso_estatal)
+        )
+
+
+    # --------------------------------------------------------
+    # Promedio diario estatal
+    # --------------------------------------------------------
+
     st.markdown("### Promedio diario estatal")
 
-    fig, ax = plt.subplots(figsize=(10, 4))
+    promedio_plot = promedio_estatal_filtrado.sort_values(
+        "Mes_num"
+    ).copy()
 
-    promedio_plot = promedio_estatal_filtrado.sort_values("Mes_num")
+    fig, ax = plt.subplots(figsize=(10, 4))
 
     ax.plot(
         promedio_plot["Mes"],
         promedio_plot["promedio_diario_total_homicidios"],
-        marker="o"
+        marker="o",
     )
 
     for x, y in zip(
         promedio_plot["Mes"],
-        promedio_plot["promedio_diario_total_homicidios"]
+        promedio_plot["promedio_diario_total_homicidios"],
     ):
         ax.text(
             x,
@@ -962,10 +917,12 @@ with tab_estado:
             f"{y:.2f}",
             ha="center",
             va="bottom",
-            fontsize=9
+            fontsize=9,
         )
 
-    ax.set_title("Promedio diario estatal de homicidio total consumado")
+    ax.set_title(
+        "Promedio diario estatal de homicidio total consumado"
+    )
     ax.set_xlabel("Mes")
     ax.set_ylabel("Promedio diario")
     ax.grid(axis="y", alpha=0.3)
@@ -973,8 +930,12 @@ with tab_estado:
     guardar_figura_streamlit(fig)
 
     if mostrar_tablas:
-        st.markdown("### Tabla estatal mensual")
-        st.dataframe(estatal_plot, use_container_width=True, hide_index=True)
+        st.markdown("### Tabla estatal mensual completa")
+        st.dataframe(
+            estatal_plot,
+            use_container_width=True,
+            hide_index=True,
+        )
 
 
 # ------------------------------------------------------------
@@ -990,13 +951,15 @@ with tab_municipios:
 
     ax.barh(
         top_municipios["Municipio"],
-        top_municipios[indicador_seleccionado]
+        top_municipios[indicador_seleccionado],
     )
 
     ax.invert_yaxis()
     agregar_etiquetas_barras_horizontales(ax)
 
-    ax.set_title(f"Top {top_n} municipios por {indicador_seleccionado}")
+    ax.set_title(
+        f"Top {top_n} municipios por {indicador_seleccionado}"
+    )
     ax.set_xlabel("Víctimas")
     ax.set_ylabel("Municipio")
 
@@ -1014,13 +977,18 @@ with tab_municipios:
 
     ax.barh(
         top_promedio["Municipio"],
-        top_promedio["promedio_diario_periodo"]
+        top_promedio["promedio_diario_periodo"],
     )
 
     ax.invert_yaxis()
-    agregar_etiquetas_barras_horizontales(ax, decimales=2)
+    agregar_etiquetas_barras_horizontales(
+        ax,
+        decimales=2,
+    )
 
-    ax.set_title(f"Top {top_n} municipios por promedio diario del periodo")
+    ax.set_title(
+        f"Top {top_n} municipios por promedio diario del periodo"
+    )
     ax.set_xlabel("Promedio diario")
     ax.set_ylabel("Municipio")
 
@@ -1028,7 +996,11 @@ with tab_municipios:
 
     if mostrar_tablas:
         st.markdown("### Tabla municipal filtrada")
-        st.dataframe(ranking_filtrado, use_container_width=True, hide_index=True)
+        st.dataframe(
+            ranking_filtrado,
+            use_container_width=True,
+            hide_index=True,
+        )
 
 
 # ------------------------------------------------------------
@@ -1036,19 +1008,19 @@ with tab_municipios:
 # ------------------------------------------------------------
 
 with tab_mapa:
-    st.subheader("Mapa coroplético municipal con escala continua ajustada")
+    st.subheader(
+        "Mapa coroplético municipal con escala continua ajustada"
+    )
 
     st.markdown(
         """
-        Este mapa usa geometría municipal oficial del INEGI para Tabasco.
-        La escala de color es **continua**, pero usa una transformación de **raíz cuadrada**
-        para que los municipios con valores bajos y medios se distingan mejor.
+        Este mapa usa geometría municipal oficial del INEGI para
+        Tabasco. La escala de color es **continua**, pero usa una
+        transformación de **raíz cuadrada** para mejorar la lectura.
         Los datos reales se conservan en el hover y en las tablas.
         """
     )
 
-    # El mapa respeta SIEMPRE los meses y municipios seleccionados
-    # en el panel lateral.
     meses_mapa_df = (
         meses_disponibles[
             meses_disponibles["Mes"].isin(meses_seleccionados)
@@ -1058,20 +1030,25 @@ with tab_mapa:
         .copy()
     )
 
-    opciones_periodo_mapa, metadata_periodo_mapa = construir_opciones_periodo_mapa(
-        meses_mapa_df
+    opciones_periodo_mapa, metadata_periodo_mapa = (
+        construir_opciones_periodo_mapa(meses_mapa_df)
     )
 
     if len(opciones_periodo_mapa) == 0:
-        st.warning("Selecciona al menos un mes en el panel lateral para construir el mapa.")
+        st.warning(
+            "Selecciona al menos un mes en el panel lateral "
+            "para construir el mapa."
+        )
     else:
-        col_mapa_1, col_mapa_2, col_mapa_3 = st.columns([1, 1, 1])
+        col_mapa_1, col_mapa_2, col_mapa_3 = st.columns(
+            [1, 1, 1]
+        )
 
         with col_mapa_1:
             opcion_periodo_mapa = st.selectbox(
                 "Mes para el mapa",
                 options=opciones_periodo_mapa,
-                index=len(opciones_periodo_mapa) - 1
+                index=len(opciones_periodo_mapa) - 1,
             )
 
         opciones_indicador_mapa = {
@@ -1079,42 +1056,51 @@ with tab_mapa:
             "Homicidio culposo": "homicidio_culposo",
             "Feminicidio": "feminicidio",
             "Total intencional": "total_intencional",
-            "Total homicidios y feminicidio": "total_homicidios_y_feminicidio",
+            "Total homicidios y feminicidio": (
+                "total_homicidios_y_feminicidio"
+            ),
         }
 
         with col_mapa_2:
             etiqueta_indicador_mapa = st.selectbox(
                 "Indicador para el mapa",
                 options=list(opciones_indicador_mapa.keys()),
-                index=4
+                index=4,
             )
 
-        indicador_mapa = opciones_indicador_mapa[etiqueta_indicador_mapa]
+        indicador_mapa = opciones_indicador_mapa[
+            etiqueta_indicador_mapa
+        ]
 
         with col_mapa_3:
             mostrar_nombres_mapa = st.checkbox(
                 "Mostrar nombres de municipios",
-                value=True
+                value=True,
             )
 
-        periodo_info = metadata_periodo_mapa[opcion_periodo_mapa]
+        periodo_info = metadata_periodo_mapa[
+            opcion_periodo_mapa
+        ]
+
         meses_periodo_mapa = periodo_info["meses"]
         titulo_periodo_mapa = periodo_info["titulo"]
 
-        # ----------------------------------------------------
-        # Preparar base del mapa
-        # ----------------------------------------------------
-
         mapa_base = municipal_mensual_geo[
-            municipal_mensual_geo["Mes"].isin(meses_periodo_mapa)
-            &
-            municipal_mensual_geo["Municipio"].isin(municipios_seleccionados)
+            municipal_mensual_geo["Mes"].isin(
+                meses_periodo_mapa
+            )
+            & municipal_mensual_geo["Municipio"].isin(
+                municipios_seleccionados
+            )
         ].copy()
 
         mapa_no_geo = municipal_mensual_no_geo[
-            municipal_mensual_no_geo["Mes"].isin(meses_periodo_mapa)
-            &
-            municipal_mensual_no_geo["Municipio"].isin(municipios_seleccionados)
+            municipal_mensual_no_geo["Mes"].isin(
+                meses_periodo_mapa
+            )
+            & municipal_mensual_no_geo["Municipio"].isin(
+                municipios_seleccionados
+            )
         ].copy()
 
         municipios_seleccionados_norm = [
@@ -1123,59 +1109,75 @@ with tab_mapa:
         ]
 
         municipios_geo_mapa_df = municipios_geo_df[
-            municipios_geo_df["municipio_norm"].isin(municipios_seleccionados_norm)
+            municipios_geo_df["municipio_norm"].isin(
+                municipios_seleccionados_norm
+            )
         ].copy()
 
         if municipios_geo_mapa_df.empty:
             st.warning(
-                "No hay municipios geográficos seleccionados para el mapa. "
-                "Si solo seleccionaste 'No especificado', recuerda que no se puede pintar en el mapa."
+                "No hay municipios geográficos seleccionados "
+                "para el mapa. Si solo seleccionaste "
+                "'No especificado', recuerda que no puede "
+                "pintarse en el mapa."
             )
         else:
-            mapa_base["municipio_norm"] = mapa_base["Municipio"].apply(normalizar_texto)
+            mapa_base["municipio_norm"] = (
+                mapa_base["Municipio"].apply(normalizar_texto)
+            )
 
             mapa_df = (
                 mapa_base
-                .groupby(["Municipio", "municipio_norm"], as_index=False)
-                [
+                .groupby(
+                    ["Municipio", "municipio_norm"],
+                    as_index=False,
+                )[
                     [
                         "homicidio_doloso",
                         "homicidio_culposo",
                         "feminicidio",
                         "total_intencional",
-                        "total_homicidios_y_feminicidio"
+                        "total_homicidios_y_feminicidio",
                     ]
                 ]
                 .sum()
             )
 
-            # Unimos contra los municipios del GeoJSON seleccionados
-            # para respetar SIEMPRE el panel lateral.
             mapa_df = municipios_geo_mapa_df.merge(
                 mapa_df,
                 on="municipio_norm",
-                how="left"
+                how="left",
             )
 
-            mapa_df["Municipio"] = mapa_df["Municipio"].fillna(mapa_df["municipio_geo"])
+            mapa_df["Municipio"] = mapa_df["Municipio"].fillna(
+                mapa_df["municipio_geo"]
+            )
 
-            for col in [
+            for columna in [
                 "homicidio_doloso",
                 "homicidio_culposo",
                 "feminicidio",
                 "total_intencional",
-                "total_homicidios_y_feminicidio"
+                "total_homicidios_y_feminicidio",
             ]:
-                mapa_df[col] = mapa_df[col].fillna(0)
+                mapa_df[columna] = mapa_df[columna].fillna(0)
 
-            municipios_tabla = set(mapa_base["municipio_norm"].unique())
-            municipios_geo_set = set(municipios_geo_df["municipio_norm"].unique())
+            municipios_tabla = set(
+                mapa_base["municipio_norm"].unique()
+            )
 
-            municipios_sin_geo = sorted(list(municipios_tabla - municipios_geo_set))
+            municipios_geo_set = set(
+                municipios_geo_df["municipio_norm"].unique()
+            )
+
+            municipios_sin_geo = sorted(
+                list(municipios_tabla - municipios_geo_set)
+            )
 
             if len(municipios_sin_geo) > 0:
                 st.warning(
-                    "Hay municipios reales en la tabla que no coincidieron con el GeoJSON del INEGI:\n\n"
+                    "Hay municipios reales en la tabla que no "
+                    "coincidieron con el GeoJSON del INEGI:\n\n"
                     + ", ".join(municipios_sin_geo)
                 )
 
@@ -1186,7 +1188,7 @@ with tab_mapa:
                         "homicidio_culposo",
                         "feminicidio",
                         "total_intencional",
-                        "total_homicidios_y_feminicidio"
+                        "total_homicidios_y_feminicidio",
                     ]
                 ].sum()
 
@@ -1194,24 +1196,32 @@ with tab_mapa:
 
                 if valor_no_geo > 0:
                     st.info(
-                        f"Nota: existen **{valor_no_geo:.0f} víctimas** en el indicador "
-                        f"**{etiqueta_indicador_mapa}** registradas como **No especificado**. "
-                        "Se conservan en las tablas, pero no se pintan en el mapa porque no tienen municipio geográfico."
+                        f"Existen **{valor_no_geo:.0f} víctimas** "
+                        f"en **{etiqueta_indicador_mapa}** "
+                        "registradas como **No especificado**. "
+                        "Se conservan en las tablas, pero no se "
+                        "pintan en el mapa."
                     )
 
-            # Agregamos valor real y valor transformado.
             mapa_df = agregar_valores_mapa_sqrt(
                 mapa_df,
-                columna_valor=indicador_mapa
+                columna_valor=indicador_mapa,
             )
 
             valor_maximo_real = mapa_df["valor_mapa"].max()
-            valor_maximo_sqrt = mapa_df["valor_mapa_sqrt"].max()
+            valor_maximo_sqrt = mapa_df[
+                "valor_mapa_sqrt"
+            ].max()
 
             if valor_maximo_real == 0:
-                st.info("Con los filtros seleccionados, todos los municipios tienen valor cero.")
+                st.info(
+                    "Con los filtros seleccionados, todos los "
+                    "municipios tienen valor cero."
+                )
 
-            tickvals, ticktext = crear_ticks_colorbar(valor_maximo_real)
+            tickvals, ticktext = crear_ticks_colorbar(
+                valor_maximo_real
+            )
 
             fig_mapa = px.choropleth(
                 mapa_df,
@@ -1233,8 +1243,13 @@ with tab_mapa:
                     "total_intencional": True,
                     "total_homicidios_y_feminicidio": True,
                 },
-                color_continuous_scale=ESCALA_CONTINUA_ROJO_SQRT,
-                range_color=(0, max(valor_maximo_sqrt, 1)),
+                color_continuous_scale=(
+                    ESCALA_CONTINUA_ROJO_SQRT
+                ),
+                range_color=(
+                    0,
+                    max(valor_maximo_sqrt, 1),
+                ),
                 labels={
                     "valor_mapa_sqrt": "Víctimas",
                     "valor_mapa": etiqueta_indicador_mapa,
@@ -1242,16 +1257,20 @@ with tab_mapa:
                     "homicidio_culposo": "Homicidio culposo",
                     "feminicidio": "Feminicidio",
                     "total_intencional": "Total intencional",
-                    "total_homicidios_y_feminicidio": "Total homicidios y feminicidio",
+                    "total_homicidios_y_feminicidio": (
+                        "Total homicidios y feminicidio"
+                    ),
                 },
-                title=f"Tabasco: {etiqueta_indicador_mapa} por municipio ({titulo_periodo_mapa})"
+                title=(
+                    f"Tabasco: {etiqueta_indicador_mapa} "
+                    f"por municipio ({titulo_periodo_mapa})"
+                ),
             )
 
-            # Líneas de división municipal.
             fig_mapa.update_traces(
                 marker_line_color="#222222",
                 marker_line_width=1.4,
-                selector=dict(type="choropleth")
+                selector=dict(type="choropleth"),
             )
 
             fig_mapa.update_geos(
@@ -1261,32 +1280,38 @@ with tab_mapa:
                 showcoastlines=False,
                 showland=True,
                 landcolor="rgb(245,245,245)",
-                bgcolor="rgba(0,0,0,0)"
+                bgcolor="rgba(0,0,0,0)",
             )
 
             fig_mapa.update_layout(
                 height=720,
-                margin={"r": 0, "t": 60, "l": 0, "b": 0},
+                margin={
+                    "r": 0,
+                    "t": 60,
+                    "l": 0,
+                    "b": 0,
+                },
                 coloraxis_colorbar={
                     "title": "Víctimas",
                     "tickvals": tickvals,
-                    "ticktext": ticktext
-                }
+                    "ticktext": ticktext,
+                },
             )
 
             if mostrar_nombres_mapa:
-
                 etiquetas_df = mapa_df[
                     [
                         "Municipio",
                         "municipio_norm",
                         "label_lon",
                         "label_lat",
-                        indicador_mapa
+                        indicador_mapa,
                     ]
                 ].copy()
 
-                etiquetas_df = etiquetas_df.dropna(subset=["label_lon", "label_lat"])
+                etiquetas_df = etiquetas_df.dropna(
+                    subset=["label_lon", "label_lat"]
+                )
 
                 fig_mapa.add_trace(
                     go.Scattergeo(
@@ -1296,22 +1321,23 @@ with tab_mapa:
                         mode="text",
                         textfont=dict(
                             size=9,
-                            color="black"
+                            color="black",
                         ),
                         hoverinfo="skip",
-                        showlegend=False
+                        showlegend=False,
                     )
                 )
 
             st.plotly_chart(
                 fig_mapa,
-                use_container_width=True
+                use_container_width=True,
             )
 
             st.caption(
-                "Nota visual: el color se calcula con raíz cuadrada para mejorar la lectura. "
-                "La barra, el hover y las tablas muestran víctimas reales. "
-                "El mapa respeta los meses y municipios seleccionados en el panel lateral."
+                "El color se calcula con raíz cuadrada para "
+                "mejorar la lectura. El hover y las tablas "
+                "muestran víctimas reales. El mapa respeta "
+                "los meses y municipios seleccionados."
             )
 
             st.markdown("### Tabla base del mapa")
@@ -1324,28 +1350,31 @@ with tab_mapa:
                     "homicidio_culposo",
                     "feminicidio",
                     "total_intencional",
-                    "total_homicidios_y_feminicidio"
+                    "total_homicidios_y_feminicidio",
                 ]
             ].rename(
                 columns={
-                    "valor_mapa": etiqueta_indicador_mapa
+                    "valor_mapa": etiqueta_indicador_mapa,
                 }
             ).sort_values(
                 etiqueta_indicador_mapa,
-                ascending=False
+                ascending=False,
             )
 
             st.dataframe(
                 tabla_mapa,
                 use_container_width=True,
-                hide_index=True
+                hide_index=True,
             )
 
             st.download_button(
                 label="Descargar tabla del mapa en CSV",
-                data=tabla_mapa.to_csv(index=False, encoding="utf-8-sig"),
+                data=tabla_mapa.to_csv(
+                    index=False,
+                    encoding="utf-8-sig",
+                ),
                 file_name="tabla_mapa_coropletico_tabasco.csv",
-                mime="text/csv"
+                mime="text/csv",
             )
 
 
@@ -1356,15 +1385,12 @@ with tab_mapa:
 with tab_heatmap:
     st.subheader("Heatmap municipio-mes")
 
-    heatmap_filtrado = (
-        municipal_filtrado
-        .pivot_table(
-            index="Municipio",
-            columns="Mes",
-            values="total_homicidios_y_feminicidio",
-            aggfunc="sum",
-            fill_value=0
-        )
+    heatmap_filtrado = municipal_filtrado.pivot_table(
+        index="Municipio",
+        columns="Mes",
+        values="total_homicidios_y_feminicidio",
+        aggfunc="sum",
+        fill_value=0,
     )
 
     meses_ordenados_filtrados = (
@@ -1374,30 +1400,46 @@ with tab_heatmap:
         .tolist()
     )
 
-    heatmap_filtrado = heatmap_filtrado[
-        [m for m in meses_ordenados_filtrados if m in heatmap_filtrado.columns]
+    columnas_validas = [
+        mes
+        for mes in meses_ordenados_filtrados
+        if mes in heatmap_filtrado.columns
     ]
+
+    if len(columnas_validas) > 0:
+        heatmap_filtrado = heatmap_filtrado[
+            columnas_validas
+        ]
 
     heatmap_filtrado["Total"] = heatmap_filtrado.sum(axis=1)
 
     heatmap_filtrado = heatmap_filtrado.sort_values(
         "Total",
-        ascending=False
+        ascending=False,
     )
 
-    matriz = heatmap_filtrado.drop(columns="Total").values
+    matriz = heatmap_filtrado.drop(
+        columns="Total"
+    ).values
+
     municipios_heatmap = heatmap_filtrado.index.tolist()
-    columnas_mes = heatmap_filtrado.drop(columns="Total").columns.tolist()
+
+    columnas_mes = heatmap_filtrado.drop(
+        columns="Total"
+    ).columns.tolist()
 
     if matriz.size == 0:
-        st.warning("No hay datos para construir el heatmap con los filtros actuales.")
+        st.warning(
+            "No hay datos para construir el heatmap "
+            "con los filtros actuales."
+        )
     else:
         fig, ax = plt.subplots(figsize=(10, 8))
 
         im = ax.imshow(
             matriz,
             aspect="auto",
-            cmap="viridis_r"
+            cmap="viridis_r",
         )
 
         ax.set_xticks(range(len(columnas_mes)))
@@ -1418,21 +1460,29 @@ with tab_heatmap:
                     va="center",
                     fontsize=8,
                     color="white",
-                    fontweight="bold"
+                    fontweight="bold",
                 )
 
-                texto.set_path_effects([
-                    path_effects.withStroke(
-                        linewidth=1.5,
-                        foreground="black"
-                    )
-                ])
+                texto.set_path_effects(
+                    [
+                        path_effects.withStroke(
+                            linewidth=1.5,
+                            foreground="black",
+                        )
+                    ]
+                )
 
-        ax.set_title("Heatmap municipio-mes: total amplio")
+        ax.set_title(
+            "Heatmap municipio-mes: total amplio"
+        )
         ax.set_xlabel("Mes")
         ax.set_ylabel("Municipio")
 
-        fig.colorbar(im, ax=ax, label="Víctimas")
+        fig.colorbar(
+            im,
+            ax=ax,
+            label="Víctimas",
+        )
 
         guardar_figura_streamlit(fig)
 
@@ -1441,7 +1491,7 @@ with tab_heatmap:
         st.dataframe(
             heatmap_filtrado.reset_index(),
             use_container_width=True,
-            hide_index=True
+            hide_index=True,
         )
 
 
@@ -1459,14 +1509,14 @@ with tab_modalidad:
 
         modalidad_doloso_plot = modalidad_doloso.sort_values(
             "Victimas",
-            ascending=True
+            ascending=True,
         )
 
         fig, ax = plt.subplots(figsize=(7, 5))
 
         ax.barh(
             modalidad_doloso_plot["Modalidad"],
-            modalidad_doloso_plot["Victimas"]
+            modalidad_doloso_plot["Victimas"],
         )
 
         agregar_etiquetas_barras_horizontales(ax)
@@ -1481,22 +1531,24 @@ with tab_modalidad:
             st.dataframe(
                 modalidad_doloso,
                 use_container_width=True,
-                hide_index=True
+                hide_index=True,
             )
 
     with col_b:
         st.markdown("### Homicidio culposo")
 
-        modalidad_culposo_plot = modalidad_culposo.sort_values(
-            "Victimas",
-            ascending=True
+        modalidad_culposo_plot = (
+            modalidad_culposo.sort_values(
+                "Victimas",
+                ascending=True,
+            )
         )
 
         fig, ax = plt.subplots(figsize=(7, 5))
 
         ax.barh(
             modalidad_culposo_plot["Modalidad"],
-            modalidad_culposo_plot["Victimas"]
+            modalidad_culposo_plot["Victimas"],
         )
 
         agregar_etiquetas_barras_horizontales(ax)
@@ -1511,7 +1563,7 @@ with tab_modalidad:
             st.dataframe(
                 modalidad_culposo,
                 use_container_width=True,
-                hide_index=True
+                hide_index=True,
             )
 
 
@@ -1524,7 +1576,10 @@ with tab_perfil:
 
     sexo_edad_total = (
         sexo_edad
-        .groupby(["Sexo", "Rango de edad"], as_index=False)["Victimas"]
+        .groupby(
+            ["Sexo", "Rango de edad"],
+            as_index=False,
+        )["Victimas"]
         .sum()
     )
 
@@ -1533,7 +1588,7 @@ with tab_perfil:
         columns="Sexo",
         values="Victimas",
         aggfunc="sum",
-        fill_value=0
+        fill_value=0,
     )
 
     orden_edad = [
@@ -1542,35 +1597,52 @@ with tab_perfil:
         "18 a 29 años",
         "30 a 60 años",
         "60 y más",
-        "No especificado"
+        "No especificado",
     ]
 
-    orden_existente = [x for x in orden_edad if x in sexo_edad_pivot.index]
-    resto = [x for x in sexo_edad_pivot.index if x not in orden_existente]
+    orden_existente = [
+        valor
+        for valor in orden_edad
+        if valor in sexo_edad_pivot.index
+    ]
 
-    sexo_edad_pivot = sexo_edad_pivot.loc[orden_existente + resto]
+    resto = [
+        valor
+        for valor in sexo_edad_pivot.index
+        if valor not in orden_existente
+    ]
+
+    sexo_edad_pivot = sexo_edad_pivot.loc[
+        orden_existente + resto
+    ]
 
     fig, ax = plt.subplots(figsize=(10, 5))
 
     sexo_edad_pivot.plot(
         kind="bar",
         stacked=True,
-        ax=ax
+        ax=ax,
     )
 
     ax.set_title("Víctimas por sexo y rango de edad")
     ax.set_xlabel("Rango de edad")
     ax.set_ylabel("Víctimas")
     ax.legend(title="Sexo")
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=0)
+    ax.set_xticklabels(
+        ax.get_xticklabels(),
+        rotation=0,
+    )
 
     guardar_figura_streamlit(fig)
 
     if mostrar_tablas:
         st.dataframe(
-            sexo_edad_total.sort_values("Victimas", ascending=False),
+            sexo_edad_total.sort_values(
+                "Victimas",
+                ascending=False,
+            ),
             use_container_width=True,
-            hide_index=True
+            hide_index=True,
         )
 
 
@@ -1587,34 +1659,44 @@ with tab_tentativas:
     )
 
     if tentativas_estatal_filtrado.empty:
-        st.info("No hay tentativas con los filtros seleccionados.")
+        st.info(
+            "No hay tentativas con los filtros seleccionados."
+        )
     else:
         tentativas_pivot = tentativas_estatal_filtrado.pivot_table(
             index=["Mes_num", "Mes"],
             columns="categoria_analisis",
             values="Victimas",
             aggfunc="sum",
-            fill_value=0
+            fill_value=0,
         ).reset_index()
 
-        tentativas_pivot = tentativas_pivot.sort_values("Mes_num")
+        tentativas_pivot = tentativas_pivot.sort_values(
+            "Mes_num"
+        )
 
         columnas_tentativas = [
-            c for c in tentativas_pivot.columns
-            if c not in ["Mes_num", "Mes"]
+            columna
+            for columna in tentativas_pivot.columns
+            if columna not in ["Mes_num", "Mes"]
         ]
 
         fig, ax = plt.subplots(figsize=(10, 5))
 
-        tentativas_pivot.set_index("Mes")[columnas_tentativas].plot(
+        tentativas_pivot.set_index("Mes")[
+            columnas_tentativas
+        ].plot(
             kind="bar",
-            ax=ax
+            ax=ax,
         )
 
         ax.set_title("Tentativas estatales por mes")
         ax.set_xlabel("Mes")
         ax.set_ylabel("Víctimas")
-        ax.set_xticklabels(ax.get_xticklabels(), rotation=0)
+        ax.set_xticklabels(
+            ax.get_xticklabels(),
+            rotation=0,
+        )
         ax.legend(title="Categoría")
 
         guardar_figura_streamlit(fig)
@@ -1624,14 +1706,14 @@ with tab_tentativas:
         st.dataframe(
             tentativas_estatal_filtrado,
             use_container_width=True,
-            hide_index=True
+            hide_index=True,
         )
 
         st.markdown("### Tentativas municipales")
         st.dataframe(
             tentativas_municipal_filtrado,
             use_container_width=True,
-            hide_index=True
+            hide_index=True,
         )
 
 
@@ -1650,7 +1732,10 @@ with tab_reporte:
                 label="Descargar reporte Excel",
                 data=archivo,
                 file_name=REPORTE_EXCEL.name,
-                mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                mime=(
+                    "application/vnd.openxmlformats-"
+                    "officedocument.spreadsheetml.sheet"
+                ),
             )
     else:
         st.warning(
@@ -1678,11 +1763,16 @@ with tab_reporte:
 # ------------------------------------------------------------
 
 st.markdown("---")
+
 st.caption(
-    "Nota: el total amplio corresponde a homicidio doloso + homicidio culposo + feminicidio consumado. "
-    "El total intencional corresponde a homicidio doloso + feminicidio. "
-    "Las tentativas se analizan por separado. "
-    "Los registros No especificado se conservan en tablas y totales, pero no se pintan en el mapa. "
-    "La geometría municipal proviene del servicio vectorial del Marco Geoestadístico del INEGI. "
-    "El mapa usa una escala continua con transformación de raíz cuadrada solo para mejorar la visualización."
+    "Nota: el total amplio corresponde a homicidio doloso + "
+    "homicidio culposo + feminicidio consumado. "
+    "El total intencional corresponde a homicidio doloso + "
+    "feminicidio. Las tentativas se analizan por separado. "
+    "Los registros No especificado se conservan en tablas y "
+    "totales, pero no se pintan en el mapa. La geometría "
+    "municipal proviene del servicio vectorial del Marco "
+    "Geoestadístico del INEGI. El mapa usa una escala continua "
+    "con transformación de raíz cuadrada solo para mejorar "
+    "la visualización."
 )
