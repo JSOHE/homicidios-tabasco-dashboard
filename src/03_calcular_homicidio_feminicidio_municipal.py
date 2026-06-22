@@ -150,20 +150,12 @@ def porcentaje_seguro(numerador, denominador):
 # 5. Buscar archivo CSV en data/raw
 # ------------------------------------------------------------
 
-archivos_csv = list(RAW_DIR.rglob("*.csv"))
+archivo_datos = RAW_DIR / "RNID-Victimas_Municipal-2026-may2026.csv"
 
-if len(archivos_csv) == 0:
+if not archivo_datos.exists():
     raise FileNotFoundError(
-        "No encontré archivos CSV en data/raw. "
-        "Guarda ahí la base RNID-Victimas_Municipal-2026-may2026.csv."
+        f"No encontré el archivo esperado: {archivo_datos}"
     )
-
-# Tomamos el archivo más reciente por fecha de modificación.
-archivo_datos = sorted(
-    archivos_csv,
-    key=lambda p: p.stat().st_mtime,
-    reverse=True
-)[0]
 
 print("\nArchivo seleccionado:")
 print(archivo_datos)
@@ -186,8 +178,8 @@ print(df.columns.tolist())
 # 7. Detectar meses disponibles
 # ------------------------------------------------------------
 
-# El archivo dice abr2026, por lo que normalmente enero-mayo tienen datos
-# y mayo-diciembre vienen vacíos.
+# El archivo de mayo de 2026 contiene datos de enero a mayo
+# y junio-diciembre vienen vacíos.
 # Esta parte detecta automáticamente qué meses tienen algún dato no vacío.
 
 meses_disponibles = []

@@ -58,12 +58,12 @@ ORDEN_MESES = {
 # 3. Leer archivo
 # ------------------------------------------------------------
 
-archivos_csv = list(RAW_DIR.rglob("*.csv"))
+archivo_datos = RAW_DIR / "RNID-Victimas_Municipal-2026-may2026.csv"
 
-if len(archivos_csv) == 0:
-    raise FileNotFoundError("No encontré archivos CSV en data/raw.")
-
-archivo_datos = archivos_csv[0]
+if not archivo_datos.exists():
+    raise FileNotFoundError(
+        f"No encontré el archivo esperado: {archivo_datos}"
+    )
 
 print("Archivo que voy a leer:")
 print(archivo_datos)
@@ -142,9 +142,8 @@ tabasco_largo["Mes_num"] = tabasco_largo["Mes"].map(ORDEN_MESES)
 # 7. Filtrar solo meses con datos
 # ------------------------------------------------------------
 
-# Como tu archivo es abr2026, nos quedamos con enero-mayo.
-# Más adelante podemos hacer esto automático.
-tabasco_largo = tabasco_largo[tabasco_largo["Mes_num"] <= 4].copy()
+# El archivo de mayo contiene información de enero a mayo.
+tabasco_largo = tabasco_largo[tabasco_largo["Mes_num"] <= 5].copy()
 
 
 # ------------------------------------------------------------
